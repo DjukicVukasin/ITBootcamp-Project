@@ -47,8 +47,7 @@ public class PocetnaStranica {
 		
 		WebElement we = driver.findElement(By.xpath(ABOUT_US_XPATH));
 		we.click();
-		//Actions a = new Actions(driver);
-		//a.moveToElement(driver.findElement(By.xpath(ABOUT_US_XPATH)));
+		
 		
 		
 	}
@@ -109,7 +108,7 @@ public class PocetnaStranica {
 		WebElement we = driver.findElement(By.xpath(LOGIN_XPATH));
 		we.click();
 		}catch (Exception e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		

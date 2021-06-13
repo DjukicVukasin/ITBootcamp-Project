@@ -39,16 +39,13 @@ public class Settings {
 	
 	public static void selectLanguage(WebDriver driver, String language){
 		
-		//WebElement we = driver.findElement(By.cssSelector(LANGUAGE_SELECTOR));
-		//we.click();
+		
 		
 		Select dropSort = new Select(driver.findElement(By.cssSelector(LANGUAGE_SELECTOR)));
 		
 		 
 		dropSort.selectByVisibleText(language);
-		//dropSort.selectByIndex(6);
-		//driver.findElement(By.cssSelector(LANGUAGE_SELECTOR)).sendKeys(Keys.ENTER);
-		
+				
 	
 
 	}

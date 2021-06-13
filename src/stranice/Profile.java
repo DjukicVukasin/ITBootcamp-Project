@@ -44,8 +44,7 @@ public class Profile {
 		driver.navigate().to(URL);
 
 		
-		//WebElement we = driver.findElement(By.cssSelector(PROFILESETTINGS_SELECTOR));
-		//we.click();
+		
 		WebElement we2 = driver.findElement(By.cssSelector(FIRSTNAME_SELECTOR));
 		we2.clear();
 		we2.sendKeys("Ime");

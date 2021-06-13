@@ -22,7 +22,7 @@ import org.openqa.selenium.WebElement;
 
 public class VasaFirma {
 	
-	//public static final String uniqueID = UUID.randomUUID().toString();
+
 
 	public static final String URL = "https://imeprezime6.humanity.com/app/dashboard/";
 	public static final String DASHBOARD_XPATH = "//*[@id=\"sn_dashboard\"]/span/p";
@@ -141,7 +141,7 @@ public class VasaFirma {
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		
@@ -157,9 +157,7 @@ public class VasaFirma {
 		WebElement we4 = driver.findElement(By.xpath(ADDEMPLOYEE_EMAIL_XPATH));
 		
 		
-		//String uniqueID = UUID.randomUUID().toString();
-		// uniqueID + "@email.com"
-		
+				
 		
 		we4.sendKeys(email);
 		

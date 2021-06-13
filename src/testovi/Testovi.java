@@ -56,7 +56,7 @@ public class Testovi {
 		js = (JavascriptExecutor) driver;
 	}
 	
-	/*
+	
 	
 	@Test (priority=0)
 	
@@ -84,7 +84,7 @@ public class Testovi {
 
 		
 		driver.navigate().to(PocetnaStranica.URL);
-		//PocetnaStranica.closePopUp(driver);
+
 		PocetnaStranica.clickLogin(driver);
 		PocetnaStranica.loginInputEmailorUsername(driver);
 		PocetnaStranica.loginInputPassword(driver);
@@ -216,11 +216,7 @@ public class Testovi {
 	public void TestAddFiveEmployees() {
 		
 		driver.navigate().to(PocetnaStranica.URL);
-		//PocetnaStranica.closePopUp(driver);
-		//PocetnaStranica.clickLogin(driver);
-		//PocetnaStranica.loginInputEmailorUsername(driver);
-		//PocetnaStranica.loginInputPassword(driver);
-		//PocetnaStranica.login(driver); 
+		
 		
 		File f = new File("NewEmployees.xlsx");
 		
@@ -270,7 +266,7 @@ public class Testovi {
 		
 	} 
 	
-	*/
+	
 	
 	@Test (priority = 4)
 	
@@ -284,7 +280,7 @@ public class Testovi {
 		PocetnaStranica.loginInputPassword(driver);
 		PocetnaStranica.login(driver);
 		
-		//driver.navigate().to(VasaFirma.URL);
+		
 		
 		SoftAssert sa = new SoftAssert();
 		
